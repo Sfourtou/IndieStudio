@@ -1,0 +1,456 @@
+22:21:09: Creating resource group General
+22:21:09: Creating resource group Internal
+22:21:09: Creating resource group Autodetect
+22:21:09: SceneManagerFactory for type 'DefaultSceneManager' registered.
+22:21:09: Registering ResourceManager for type Material
+22:21:09: Registering ResourceManager for type Mesh
+22:21:09: Registering ResourceManager for type Skeleton
+22:21:09: MovableObjectFactory for type 'ParticleSystem' registered.
+22:21:09: ArchiveFactory for archive type FileSystem registered.
+22:21:09: ArchiveFactory for archive type Zip registered.
+22:21:09: ArchiveFactory for archive type EmbeddedZip registered.
+22:21:09: DDS codec registering
+22:21:09: stb_image - v2.02 - public domain JPEG/PNG reader
+22:21:09: Supported formats: jpeg,jpg,png,bmp,psd,tga,gif,pic,ppm,pgm
+22:21:09: Registering ResourceManager for type HighLevelGpuProgram
+22:21:09: Registering ResourceManager for type Compositor
+22:21:09: MovableObjectFactory for type 'Entity' registered.
+22:21:09: MovableObjectFactory for type 'Light' registered.
+22:21:09: MovableObjectFactory for type 'BillboardSet' registered.
+22:21:09: MovableObjectFactory for type 'ManualObject' registered.
+22:21:09: MovableObjectFactory for type 'BillboardChain' registered.
+22:21:09: MovableObjectFactory for type 'RibbonTrail' registered.
+22:21:09: Loading library /usr/local/lib/OGRE/RenderSystem_GL
+22:21:09: Installing plugin: GL RenderSystem
+22:21:09: OpenGL Rendering Subsystem created.
+22:21:09: Plugin successfully installed
+22:21:09: Loading library /usr/local/lib/OGRE/Plugin_ParticleFX
+22:21:09: Installing plugin: ParticleFX
+22:21:09: Particle Emitter Type 'Point' registered
+22:21:09: Particle Emitter Type 'Box' registered
+22:21:09: Particle Emitter Type 'Ellipsoid' registered
+22:21:09: Particle Emitter Type 'Cylinder' registered
+22:21:09: Particle Emitter Type 'Ring' registered
+22:21:09: Particle Emitter Type 'HollowEllipsoid' registered
+22:21:09: Particle Affector Type 'LinearForce' registered
+22:21:09: Particle Affector Type 'ColourFader' registered
+22:21:09: Particle Affector Type 'ColourFader2' registered
+22:21:09: Particle Affector Type 'ColourImage' registered
+22:21:09: Particle Affector Type 'ColourInterpolator' registered
+22:21:09: Particle Affector Type 'Scaler' registered
+22:21:09: Particle Affector Type 'Rotator' registered
+22:21:09: Particle Affector Type 'DirectionRandomiser' registered
+22:21:09: Particle Affector Type 'DeflectorPlane' registered
+22:21:09: Plugin successfully installed
+22:21:09: Loading library /usr/local/lib/OGRE/Plugin_BSPSceneManager
+22:21:09: Installing plugin: BSP Scene Manager
+22:21:09: Plugin successfully installed
+22:21:09: Loading library /usr/local/lib/OGRE/Plugin_CgProgramManager
+22:21:09: Installing plugin: Cg Program Manager
+22:21:09: Plugin successfully installed
+22:21:09: Loading library /usr/local/lib/OGRE/Plugin_PCZSceneManager
+22:21:09: Installing plugin: Portal Connected Zone Scene Manager
+22:21:09: PCZone Factory Type 'ZoneType_Default' registered
+22:21:09: Plugin successfully installed
+22:21:09: Loading library /usr/local/lib/OGRE/Plugin_OctreeZone
+22:21:09: Installing plugin: Octree Zone Factory
+22:21:09: Plugin successfully installed
+22:21:09: Loading library /usr/local/lib/OGRE/Plugin_OctreeSceneManager
+22:21:09: Installing plugin: Octree Scene Manager
+22:21:09: Plugin successfully installed
+22:21:09: *-*-* OGRE Initialising
+22:21:09: *-*-* Version 1.10.0unstable (Xalafu)
+22:21:09: Added resource location '../media' of type 'FileSystem' to resource group 'General'
+22:21:09: Added resource location '../media/materials' of type 'FileSystem' to resource group 'General'
+22:21:09: Added resource location '../media/materials/scripts' of type 'FileSystem' to resource group 'General'
+22:21:09: Added resource location '../media/materials/textures' of type 'FileSystem' to resource group 'General'
+22:21:09: Added resource location '../media/models/' of type 'FileSystem' to resource group 'General'
+22:21:09: CPU Identifier & Features
+22:21:09: -------------------------
+22:21:09:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+22:21:09:  *      SSE: yes
+22:21:09:  *     SSE2: yes
+22:21:09:  *     SSE3: yes
+22:21:09:  *      MMX: yes
+22:21:09:  *   MMXEXT: yes
+22:21:09:  *    3DNOW: no
+22:21:09:  * 3DNOWEXT: no
+22:21:09:  *     CMOV: yes
+22:21:09:  *      TSC: yes
+22:21:09:  *      FPU: yes
+22:21:09:  *      PRO: yes
+22:21:09:  *       HT: no
+22:21:09: -------------------------
+22:21:09: ******************************
+*** Starting GLX Subsystem ***
+******************************
+22:21:09: Registering ResourceManager for type Texture
+22:21:09: GLRenderSystem::_createRenderWindow "Gauntlet", 1920x1080 fullscreen  miscParams: FSAA=0 displayFrequency=60 Hz gamma=No vsync=No 
+22:21:09: GLXWindow::create used FBConfigID = 160
+22:21:09: GL_VERSION = 3.0 Mesa 10.5.9
+22:21:09: GL_VENDOR = Intel Open Source Technology Center
+22:21:09: GL_RENDERER = Mesa DRI Intel(R) Haswell Mobile 
+22:21:09: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_APPLE_packed_pixels GL_APPLE_vertex_array_object GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shader_atomic_counters GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_clear_buffer_object GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_invalidate_subdata GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_KHR_debug GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_multi_bind GL_ARB_seamless_cubemap_per_texture GL_ARB_texture_mirror_clamp_to_edge GL_ARB_vertex_type_10f_11f_11f_rev GL_EXT_shader_integer_mix GL_ARB_conditional_render_inverted GL_ARB_derivative_control GL_EXT_polygon_offset_clamp GL_KHR_context_flush_control 
+22:21:09: Supported GLX extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_framebuffer_sRGB GLX_EXT_create_context_es2_profile GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap GLX_INTEL_swap_event 
+22:21:09: ***************************
+22:21:09: *** GL Renderer Started ***
+22:21:09: ***************************
+22:21:09: Registering ResourceManager for type GpuProgram
+22:21:09: GLSL support detected
+22:21:09: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+22:21:09: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D16S1 D16S4 D16S8 D16S16 D24S0 D24S1 D24S4 D24S8 D24S16 D32S0 D32S1 D32S4 D32S8 D32S16 Packed-D24S8 
+22:21:09: [GL] : Valid FBO targets PF_UNKNOWN PF_A8 PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGBA PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R 
+22:21:09: RenderSystem capabilities
+22:21:09: -------------------------
+22:21:09: RenderSystem Name: OpenGL Rendering Subsystem
+22:21:09: GPU Vendor: intel
+22:21:09: Device Name: Mesa DRI Intel(R) Haswell Mobile 
+22:21:09: Driver Version: 3.0.0.0
+22:21:09:  * Fixed function pipeline: yes
+22:21:09:  * Hardware generation of mipmaps: no
+22:21:09:  * Texture blending: yes
+22:21:09:  * Anisotropic texture filtering: yes
+22:21:09:  * Dot product texture operation: yes
+22:21:09:  * Cube mapping: yes
+22:21:09:  * Hardware stencil buffer: yes
+22:21:09:    - Stencil depth: 8
+22:21:09:    - Two sided stencil support: yes
+22:21:09:    - Wrap stencil values: yes
+22:21:09:  * Hardware vertex / index buffers: yes
+22:21:09:  * 32-bit index buffers: yes
+22:21:09:  * Vertex programs: yes
+22:21:09:  * Number of floating-point constants for vertex programs: 4096
+22:21:09:  * Number of integer constants for vertex programs: 0
+22:21:09:  * Number of boolean constants for vertex programs: 0
+22:21:09:  * Fragment programs: yes
+22:21:09:  * Number of floating-point constants for fragment programs: 4096
+22:21:09:  * Number of integer constants for fragment programs: 0
+22:21:09:  * Number of boolean constants for fragment programs: 0
+22:21:09:  * Geometry programs: no
+22:21:09:  * Number of floating-point constants for geometry programs: 0
+22:21:09:  * Number of integer constants for geometry programs: 0
+22:21:09:  * Number of boolean constants for geometry programs: 0
+22:21:09:  * Tessellation Hull programs: no
+22:21:09:  * Number of floating-point constants for tessellation hull programs: 0
+22:21:09:  * Number of integer constants for tessellation hull programs: 0
+22:21:09:  * Number of boolean constants for tessellation hull programs: 0
+22:21:09:  * Tessellation Domain programs: no
+22:21:09:  * Number of floating-point constants for tessellation domain programs: 0
+22:21:09:  * Number of integer constants for tessellation domain programs: 0
+22:21:09:  * Number of boolean constants for tessellation domain programs: 0
+22:21:09:  * Compute programs: no
+22:21:09:  * Number of floating-point constants for compute programs: 838
+22:21:09:  * Number of integer constants for compute programs: 0
+22:21:09:  * Number of boolean constants for compute programs: 0
+22:21:09:  * Supported Shader Profiles: arbfp1 arbvp1 glsl glsl100 glsl110 glsl120
+22:21:09:  * Texture Compression: yes
+22:21:09:    - DXT: yes
+22:21:09:    - VTC: no
+22:21:09:    - PVRTC: no
+22:21:09:    - ATC: no
+22:21:09:    - ETC1: no
+22:21:09:    - ETC2: no
+22:21:09:    - BC4/BC5: no
+22:21:09:    - BC6H/BC7: no
+22:21:09:  * Scissor Rectangle: yes
+22:21:09:  * Hardware Occlusion Query: yes
+22:21:09:  * User clip planes: yes
+22:21:09:  * VET_UBYTE4 vertex element type: yes
+22:21:09:  * Infinite far plane projection: yes
+22:21:09:  * Hardware render-to-texture: yes
+22:21:09:  * Floating point textures: yes
+22:21:09:  * Non-power-of-two textures: yes
+22:21:09:  * 1d textures: yes
+22:21:09:  * Volume textures: yes
+22:21:09:  * Multiple Render Targets: 8
+22:21:09:    - With different bit depths: yes
+22:21:09:  * Point Sprites: yes
+22:21:09:  * Extended point parameters: yes
+22:21:09:  * Max Point Size: 255
+22:21:09:  * Vertex texture fetch: yes
+22:21:09:  * Number of world matrices: 0
+22:21:09:  * Number of texture units: 16
+22:21:09:  * Stencil buffer depth: 8
+22:21:09:  * Number of vertex blend matrices: 0
+22:21:09:    - Max vertex textures: 32
+22:21:09:    - Vertex textures shared: yes
+22:21:09:  * Render to Vertex Buffer : no
+22:21:09:  * Hardware Atomic Counters: no
+22:21:09:  * GL 1.5 without VBO workaround: no
+22:21:09:  * Frame Buffer objects: yes
+22:21:09:  * Frame Buffer objects (ARB extension): no
+22:21:09:  * Frame Buffer objects (ATI extension): no
+22:21:09:  * PBuffer support: yes
+22:21:09:  * GL 1.5 without HW-occlusion workaround: no
+22:21:09:  * Vertex Array Objects: no
+22:21:09:  * Separate shader objects: no
+22:21:09: DefaultWorkQueue('Root') initialising on thread 7fd3340c6a40.
+22:21:09: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd31a3eb700 starting.
+22:21:09: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd31abec700 starting.
+22:21:09: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd319bea700 starting.
+22:21:09: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd3093e9700 starting.
+22:21:09: Particle Renderer Type 'billboard' registered
+22:21:09: SceneManagerFactory for type 'BspSceneManager' registered.
+22:21:09: Registering ResourceManager for type BspLevel
+22:21:10: SceneManagerFactory for type 'PCZSceneManager' registered.
+22:21:10: MovableObjectFactory for type 'PCZLight' registered.
+22:21:10: MovableObjectFactory for type 'Portal' registered.
+22:21:10: MovableObjectFactory for type 'AntiPortal' registered.
+22:21:10: PCZone Factory Type 'ZoneType_Octree' registered
+22:21:10: SceneManagerFactory for type 'OctreeSceneManager' registered.
+22:21:10: Parsing scripts for resource group Autodetect
+22:21:10: Finished parsing scripts for resource group Autodetect
+22:21:10: Creating resources for group Autodetect
+22:21:10: All done
+22:21:10: Parsing scripts for resource group General
+22:21:10: Parsing script Lutin.material
+22:21:10: Parsing script brique.material
+22:21:10: Parsing script Material.002.material
+22:21:10: Parsing script Sol_Arene.material
+22:21:10: Parsing script bois.material
+22:21:10: Parsing script metal.material
+22:21:10: Parsing script WhiteGhost.material
+22:21:10: Parsing script Ghost.material
+22:21:10: Parsing script grey_shuriken.material
+22:21:10: Parsing script GoldText.material
+22:21:10: Parsing script Arms2.jpg.material.material
+22:21:10: Parsing script Dragon.material
+22:21:10: Parsing script appareillage.material
+22:21:10: Parsing script pierre.material
+22:21:10: Parsing script Ogre.material
+22:21:10: Parsing script BlackGhost.material
+22:21:10: Parsing script Eau.material
+22:21:10: Parsing script Bois_-_Noyer_ver.material
+22:21:10: Parsing script Castle.material
+22:21:10: Parsing script lamelle.material
+22:21:10: Parsing script Eau.001.material
+22:21:10: Parsing script peinture_eau.material
+22:21:10: Parsing script fences.material
+22:21:10: Parsing script portes.material
+22:21:10: Parsing script herbe.material
+22:21:10: Parsing script Sphere.material
+22:21:10: Parsing script Sword.material
+22:21:10: Parsing script terre.material
+22:21:10: Parsing script dallage.material
+22:21:10: Parsing script Demon.material
+22:21:10: Parsing script wood.material
+22:21:10: Parsing script Chem.material
+22:21:10: Parsing script Boot.material
+22:21:10: Parsing script herbe2.material
+22:21:10: Parsing script Warrior.material
+22:21:10: Parsing script gold.material
+22:21:10: Parsing script LifePotion.material
+22:21:10: Parsing script Bois.material
+22:21:10: Parsing script beton.material
+22:21:10: Parsing script env_eau.material
+22:21:10: Parsing script bossGround.material
+22:21:10: Parsing script black_shuriken.material
+22:21:10: Parsing script KeyGold.material
+22:21:10: Parsing script eau.material
+22:21:10: Parsing script ChestText.material
+22:21:10: Parsing script Key.material
+22:21:10: Parsing script Dallage_-_Pav�s.material
+22:21:10: Parsing script M�tal_-_Chrome.material
+22:21:10: Parsing script Brique_-_ancienn.material
+22:21:10: Parsing script Env._-_Eau_(�ten.material
+22:21:10: Parsing script Ogre.material
+22:21:10: Parsing script B�ton_-_Brut.material
+22:21:10: Parsing script Env._-_Terre.material
+22:21:10: Parsing script Env._-_Herbe_ver.material
+22:21:10: Parsing script Pierre_-_Gr�s_01.material
+22:21:10: Parsing script Bois_-_Lamell�-c.material
+22:21:10: Parsing script Appareillage_-_G.material
+22:21:10: Parsing script Bois_-_Pin_granu.material
+22:21:10: Parsing script Peinture_-_Bleu.material
+22:21:10: Finished parsing scripts for resource group General
+22:21:10: Creating resources for group General
+22:21:10: All done
+22:21:10: Parsing scripts for resource group Internal
+22:21:10: Finished parsing scripts for resource group Internal
+22:21:10: Creating resources for group Internal
+22:21:10: All done
+22:21:10: Initializing OIS
+22:21:10: Mesh: Loading MyDemon.mesh.
+22:21:10: Skeleton: Loading MyDemon.skeleton
+22:21:10: WARNING: MyDemon.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: DemonHoundGlowMapRenderInternal.png: Loading 1 faces(PF_A8B8G8R8,4096x4096x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,4096x4096x1.
+22:21:10: WARNING: the mesh 'MyDemon.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+22:21:10: Mesh: Loading Ogre.mesh.
+22:21:10: Skeleton: Loading Ogre.skeleton
+22:21:10: WARNING: Ogre.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: Texture.png: Loading 1 faces(PF_A8B8G8R8,1024x1024x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+22:21:10: WARNING: the mesh 'Ogre.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+22:21:10: Mesh: Loading Ghost.mesh.
+22:21:10: Skeleton: Loading Ghost.skeleton
+22:21:10: WARNING: Ghost.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: Paint.png: Loading 1 faces(PF_A8B8G8R8,2048x2048x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,2048x2048x1.
+22:21:10: Texture: EyesBlack.png: Loading 1 faces(PF_A8B8G8R8,2048x2048x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,2048x2048x1.
+22:21:10: WARNING: the mesh 'Ghost.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+22:21:10: Mesh: Loading Lutin.mesh.
+22:21:10: Skeleton: Loading Lutin.skeleton
+22:21:10: WARNING: Lutin.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: Ring_textures.png: Loading 1 faces(PF_A8B8G8R8,800x800x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,800x800x1.
+22:21:10: Texture: Arms2.jpg: Loading 1 faces(PF_B8G8R8,1024x1024x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+22:21:10: Texture: Cloak_Diffuse.jpg: Loading 1 faces(PF_B8G8R8,1024x1024x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+22:21:10: Texture: Bandages.jpg: Loading 1 faces(PF_B8G8R8,300x300x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,300x300x1.
+22:21:10: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource leather in resource group General or any other group. in ResourceGroupManager::openResource at /home/marcha_0/Downloads/ogre/sinbad-ogre-17ff6fda0b4e/OgreMain/src/OgreResourceGroupManager.cpp (line 757)
+22:21:10: Error loading texture leather. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource leather in resource group General or any other group. in ResourceGroupManager::openResource at /home/marcha_0/Downloads/ogre/sinbad-ogre-17ff6fda0b4e/OgreMain/src/OgreResourceGroupManager.cpp (line 757)
+22:21:10: WARNING: the mesh 'Lutin.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+22:21:10: WARNING: the mesh 'Lutin.mesh' includes vertices without bone assignments. Those vertices will transform to wrong position when skeletal animation enabled. To eliminate this, assign at least one bone assignment per vertex on your mesh.
+22:21:10: Mesh: Loading Warrior.mesh.
+22:21:10: Skeleton: Loading Warrior.skeleton
+22:21:10: WARNING: the mesh 'Warrior.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+22:21:10: Mesh: Loading Claquette.mesh.
+22:21:10: Skeleton: Loading Claquette.skeleton
+22:21:10: WARNING: Claquette.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Mesh: Loading Key.mesh.
+22:21:10: Skeleton: Loading Key.skeleton
+22:21:10: WARNING: Key.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: shinyball_ref.jpg: Loading 1 faces(PF_B8G8R8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+22:21:10: Mesh: Loading LifePotion.mesh.
+22:21:10: Skeleton: Loading LifePotion.skeleton
+22:21:10: WARNING: LifePotion.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Mesh: Loading Sword.mesh.
+22:21:10: Skeleton: Loading Sword.skeleton
+22:21:10: WARNING: Sword.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: Sword_base.png: Loading 1 faces(PF_B8G8R8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:21:10: Mesh: Loading Shuriken.mesh.
+22:21:10: Skeleton: Loading Shuriken.skeleton
+22:21:10: Mesh: Loading Sphere.mesh.
+22:21:10: Skeleton: Loading Sphere.skeleton
+22:21:10: WARNING: Sphere.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:10: Texture: 20-Fire-Texture-STOCK.jpg: Loading 1 faces(PF_B8G8R8,3600x3600x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,3600x3600x1.
+22:21:11: Mesh: Loading Dragon.mesh.
+22:21:11: Skeleton: Loading Dragon.skeleton
+22:21:11: WARNING: Dragon.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+22:21:11: Texture: dragontexture.png: Loading 1 faces(PF_A8B8G8R8,64x64x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+22:21:11: WARNING: the mesh 'Dragon.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+22:21:11: OverlayElementFactory for type Panel registered.
+22:21:11: OverlayElementFactory for type BorderPanel registered.
+22:21:11: OverlayElementFactory for type TextArea registered.
+22:21:11: Registering ResourceManager for type Font
+22:21:11: Creating resource group Overlay
+22:21:11: Added resource location '../media/packs/SdkTrays.zip' of type 'Zip' to resource group 'Overlay'
+22:21:11: Parsing scripts for resource group Overlay
+22:21:11: Parsing script SdkTrays.material
+22:21:11: Parsing script SdkTrays.fontdef
+22:21:11: Parsing script SdkTrays.overlay
+22:21:11: Bad element attribute line: '# you can offset the image to change the cursor "hotspot"' for element SdkTrays/Cursor in overlay 
+22:21:11: Texture: sdk_cursor.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_tray.png: Loading 1 faces(PF_B8G8R8,64x64x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
+22:21:11: Texture: sdk_button_up.png: Loading 1 faces(PF_B8G8R8,128x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x32x1.
+22:21:11: Texture: sdk_text_box.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_mini_tray.png: Loading 1 faces(PF_B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_track.png: Loading 1 faces(PF_A8B8G8R8,16x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,16x32x1.
+22:21:11: Texture: sdk_handle.png: Loading 1 faces(PF_A8B8G8R8,16x16x1) with 4 generated mipmaps from Image. Internal format is PF_A8R8G8B8,16x16x1.
+22:21:11: Texture: sdk_mini_text_box.png: Loading 1 faces(PF_B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_label.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_separator.png: Loading 1 faces(PF_A8B8G8R8,64x16x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x16x1.
+22:21:11: Texture: sdk_logo.png: Loading 1 faces(PF_A8B8G8R8,421x55x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,421x55x1.
+22:21:11: Texture: sdk_shade.png: Loading 1 faces(PF_A8B8G8R8,64x48x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x48x1.
+22:21:11: Texture: sdk_frame.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_mini_text_box_over.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:21:11: Texture: sdk_pulse.png: Loading 1 faces(PF_B8G8R8,8x1x1) with 3 generated mipmaps from Image. Internal format is PF_X8R8G8B8,8x1x1.
+22:21:11: Finished parsing scripts for resource group Overlay
+22:21:11: Creating resources for group Overlay
+22:21:11: All done
+22:21:11: Mesh: Loading newmap.mesh.
+22:21:11: Texture: rush_grass_texture_214066.jpg: Loading 1 faces(PF_B8G8R8,303x200x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,303x200x1.
+22:21:11: Texture: 51b2fcda0be37.jpg: Loading 1 faces(PF_B8G8R8,1024x768x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+22:21:11: Texture: wood-04.jpg: Loading 1 faces(PF_B8G8R8,3888x2592x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,3888x2592x1.
+22:21:11: Texture: gravel_texture_stock_by_mysteryezekude-d27tjp6.jpg: Loading 1 faces(PF_B8G8R8,1600x1600x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1600x1600x1.
+22:21:12: Texture: ground-texture07.jpg: Loading 1 faces(PF_B8G8R8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+22:21:12: Texture: 2897.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:21:12: Texture: Stone_Floor.png: Loading 1 faces(PF_A8B8G8R8,1024x1024x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+22:21:12: Mesh: Loading Doors.mesh.
+22:21:12: Skeleton: Loading Doors.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO13 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.001.mesh.
+22:21:12: Skeleton: Loading Doors.001.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO14 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.002.mesh.
+22:21:12: Skeleton: Loading Doors.002.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO15 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.003.mesh.
+22:21:12: Skeleton: Loading Doors.003.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO16 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.004.mesh.
+22:21:12: Skeleton: Loading Doors.004.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO17 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.005.mesh.
+22:21:12: Skeleton: Loading Doors.005.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO18 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.006.mesh.
+22:21:12: Skeleton: Loading Doors.006.skeleton
+22:21:12: Can't assign material  to SubEntity of Ogre/MO19 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.007.mesh.
+22:21:12: Can't assign material  to SubEntity of Ogre/MO20 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading Doors.008.mesh.
+22:21:12: Can't assign material  to SubEntity of Ogre/MO21 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:21:12: Mesh: Loading goldChest.mesh.
+22:21:12: Texture: chest_rare.dds: Loading 1 faces(PF_DXT1,256x256x1) with 8 custom mipmaps from Image. Internal format is PF_DXT1,256x256x1.
+22:21:12: Texture: gold_textured_background_hd_picture_1_169656.jpg: Loading 1 faces(PF_B8G8R8,425x302x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,425x302x1.
+22:21:12: Texture: gold.dds: Loading 1 faces(PF_DXT1,64x64x1) with 6 custom mipmaps from Image. Internal format is PF_DXT1,64x64x1.
+22:21:12: Font SdkTrays/Caption using texture size 512x512
+22:21:12: Info: Freetype returned null for character 160 in font SdkTrays/Caption
+22:21:12: Texture: SdkTrays/CaptionTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+22:21:12: Texture: sdk_button_over.png: Loading 1 faces(PF_B8G8R8,128x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x32x1.
+22:21:14: Texture: sdk_button_down.png: Loading 1 faces(PF_B8G8R8,128x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x32x1.
+22:21:22: DefaultWorkQueue('Root') shutting down on thread 7fd3340c6a40.
+22:21:22: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd31a3eb700 stopped.
+22:21:22: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd3093e9700 stopped.
+22:21:22: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd31abec700 stopped.
+22:21:22: DefaultWorkQueue('Root')::WorkerFunc - thread 7fd319bea700 stopped.
+22:21:22: PCZone Factory Type 'ZoneType_Octree' unregistered
+22:21:22: Unregistering ResourceManager for type BspLevel
+22:21:22: *-*-* OGRE Shutdown
+22:21:22: Unregistering ResourceManager for type Compositor
+22:21:22: Unregistering ResourceManager for type Skeleton
+22:21:22: Unregistering ResourceManager for type Mesh
+22:21:22: Unregistering ResourceManager for type HighLevelGpuProgram
+22:21:22: Uninstalling plugin: Octree Scene Manager
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/Plugin_OctreeSceneManager
+22:21:22: Uninstalling plugin: Octree Zone Factory
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/Plugin_OctreeZone
+22:21:22: Uninstalling plugin: Portal Connected Zone Scene Manager
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/Plugin_PCZSceneManager
+22:21:22: Uninstalling plugin: Cg Program Manager
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/Plugin_CgProgramManager
+22:21:22: Uninstalling plugin: BSP Scene Manager
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/Plugin_BSPSceneManager
+22:21:22: Uninstalling plugin: ParticleFX
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/Plugin_ParticleFX
+22:21:22: Uninstalling plugin: GL RenderSystem
+22:21:22: Unregistering ResourceManager for type GpuProgram
+22:21:22: ******************************
+*** Stopping GLX Subsystem ***
+******************************
+22:21:22: Unregistering ResourceManager for type Texture
+22:21:22: Plugin successfully uninstalled
+22:21:22: Unloading library /usr/local/lib/OGRE/RenderSystem_GL
+22:21:22: Unregistering ResourceManager for type Material

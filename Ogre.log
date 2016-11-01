@@ -1,0 +1,27 @@
+22:59:15: Creating resource group General
+22:59:15: Creating resource group Internal
+22:59:15: Creating resource group Autodetect
+22:59:15: SceneManagerFactory for type 'DefaultSceneManager' registered.
+22:59:15: Registering ResourceManager for type Material
+22:59:15: Registering ResourceManager for type Mesh
+22:59:15: Registering ResourceManager for type Skeleton
+22:59:15: MovableObjectFactory for type 'ParticleSystem' registered.
+22:59:15: ArchiveFactory for archive type FileSystem registered.
+22:59:15: ArchiveFactory for archive type Zip registered.
+22:59:15: ArchiveFactory for archive type EmbeddedZip registered.
+22:59:15: DDS codec registering
+22:59:15: stb_image - v2.02 - public domain JPEG/PNG reader
+22:59:15: Supported formats: jpeg,jpg,png,bmp,psd,tga,gif,pic,ppm,pgm
+22:59:15: Registering ResourceManager for type HighLevelGpuProgram
+22:59:15: Registering ResourceManager for type Compositor
+22:59:15: MovableObjectFactory for type 'Entity' registered.
+22:59:15: MovableObjectFactory for type 'Light' registered.
+22:59:15: MovableObjectFactory for type 'BillboardSet' registered.
+22:59:15: MovableObjectFactory for type 'ManualObject' registered.
+22:59:15: MovableObjectFactory for type 'BillboardChain' registered.
+22:59:15: MovableObjectFactory for type 'RibbonTrail' registered.
+22:59:15: OGRE EXCEPTION(6:FileNotFoundException): 'plugins.cfg' file not found! in ConfigFile::load at /home/marcha_0/Downloads/ogre/sinbad-ogre-17ff6fda0b4e/OgreMain/src/OgreConfigFile.cpp (line 88)
+22:59:15: plugins.cfg not found, automatic plugin loading disabled.
+22:59:15: *-*-* OGRE Initialising
+22:59:15: *-*-* Version 1.10.0unstable (Xalafu)
+22:59:15: OGRE EXCEPTION(6:FileNotFoundException): 'resources.cfg' file not found! in ConfigFile::load at /home/marcha_0/Downloads/ogre/sinbad-ogre-17ff6fda0b4e/OgreMain/src/OgreConfigFile.cpp (line 88)

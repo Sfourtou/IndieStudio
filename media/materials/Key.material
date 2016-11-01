@@ -1,0 +1,41 @@
+material golden_key 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass golden key
+        {
+            ambient 0.8140428066253662 0.6572226285934448 0.0 1.0
+            diffuse 0.6512342550044394 0.5257781107094601 0.0 1.0
+            specular 1.0 0.8756269216537476 0.7139419317245483 1.0 20.0
+            emissive 0.8140428066253662 0.6572226285934448 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture shinyball_ref.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                env_map planar
+                colour_op modulate
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+17:37:38: Creating resource group General
+17:37:38: Creating resource group Internal
+17:37:38: Creating resource group Autodetect
+17:37:38: Registering ResourceManager for type Material
+17:37:38: Registering ResourceManager for type Skeleton
+17:37:38: Registering ResourceManager for type Mesh
+17:37:38: Skeleton: Loading Doors.006.skeleton
+17:37:38: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Doors.006.skeleton in resource group General or any other group. in ResourceGroupManager::openResource at /home/fourto_s/sinbad-ogre-17ff6fda0b4e/OgreMain/src/OgreResourceGroupManager.cpp (line 757)
+17:37:38: Unable to load skeleton Doors.006.skeleton for Mesh conversion. This Mesh will not be animated. You can ignore this message if you are using an offline tool.
+17:37:38: WARNING: conversion is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+17:37:38: MeshSerializer writing mesh data to stream ...
+17:37:38: File header written.
+17:37:38: Writing mesh data...
+17:37:38: Writing submesh...
+17:37:38: Exporting submesh texture aliases...
+17:37:38: Submesh texture aliases exported.
+17:37:38: Submesh exported.
+17:37:38: Exporting skeleton link...
+17:37:38: Skeleton link exported.
+17:37:38: Exporting shared geometry bone assignments...
+17:37:38: Shared geometry bone assignments exported.
+17:37:38: Exporting bounds information....
+17:37:38: Bounds information exported.
+17:37:38: Exporting submesh name table...
+17:37:38: Submesh name table exported.
+17:37:38: Exporting edge lists...
+17:37:38: Edge lists exported
+17:37:38: Mesh data exported.
+17:37:38: MeshSerializer export successful.
+17:37:38: Unregistering ResourceManager for type Mesh
+17:37:38: Unregistering ResourceManager for type Skeleton
+17:37:38: Unregistering ResourceManager for type Material

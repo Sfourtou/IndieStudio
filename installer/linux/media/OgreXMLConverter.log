@@ -1,0 +1,20 @@
+18:01:46: Creating resource group General
+18:01:46: Creating resource group Internal
+18:01:46: Creating resource group Autodetect
+18:01:46: Registering ResourceManager for type Mesh
+18:01:46: Registering ResourceManager for type Material
+18:01:46: Registering ResourceManager for type Skeleton
+18:01:46: XMLSkeletonSerializer: reading XML data from Shuriken.skeleton.xml...
+18:01:46: XMLSkeletonSerializer: Reading Bones name...
+18:01:46: XMLSkeletonSerializer: Reading Hierarchy data...
+18:01:46: XMLSkeletonSerializer: Reading Bones data...
+18:01:46: XMLSkeletonSerializer: Reading Animations data...
+18:01:46: XMLSkeletonSerializer: Finished. Running SkeletonSerializer...
+18:01:46: Exporting bones..
+18:01:46: Bones exported.
+18:01:46: Exporting animations, count=1
+18:01:46: Exporting animation: rotate
+18:01:46: Animation exported.
+18:01:46: Unregistering ResourceManager for type Skeleton
+18:01:46: Unregistering ResourceManager for type Material
+18:01:46: Unregistering ResourceManager for type Mesh
